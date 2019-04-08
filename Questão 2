@@ -1,0 +1,32 @@
+# include  < stdio.h >
+
+int  main () {
+	int nro1, nro2, i;
+
+	printf ( " digite nro1: " ); 
+        scanf ( " % d " , & nro1);
+	printf ( " \ nro " );
+	printf ( " digite nro2: " ); 
+        scanf ( " % d " , & nro2);
+	printf ( " \ nro " );
+
+	if (n1> n2) {
+		while (nro1> = nro2) {
+			if (nro1% 2 == 0 ) {
+				printf ( " % d  \ n " , nro1);
+			}
+		nro1 - = 1 ;
+		}
+
+	} mais {
+		while (nro2> = nro1) {
+			if (nro2% 2 == 0 ) {
+				printf ( " % d  \ n " , nro2);
+			}
+		nro2 - = 1 ;
+		}
+	}	
+
+
+	return  0 ;
+}
