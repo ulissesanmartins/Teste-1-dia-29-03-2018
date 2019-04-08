@@ -1,0 +1,26 @@
+# include  < stdio.h >
+
+int  main () {
+	int nota, i, media, soma = 0 ;
+	notas de temp[ 50 ];
+
+	para (i = 0 ; i < 50 ; i ++) {
+		printf ( " nota: " ); 
+                scanf ( " % d " , & nota);
+		printf ( " \ n " );
+		soma + = nota;
+		notas [i] = nota;
+	}
+	mídia = soma / 50 ;
+	printf ( " Media dos alunos: % d \ n " , media);
+	soma = 0 ;
+
+	para (i = 0 ; i < 50 ; i ++) {
+		if (notas [i]> = media) {
+			soma + = 1 ;
+		}
+	}
+	printf ( " A quantidade de notas acima da mídia e de : % d \ n " , soma);
+
+
+	return  0 ;
