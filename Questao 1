@@ -1,0 +1,15 @@
+# include  < stdio.h >
+
+int  main () {
+        int numero, soma = 0 ;
+	printf ( " Entre com um numero: \ n " );
+	scanf ( " % d " , & numero);
+	
+	while (numero> 0 ) {
+		soma + = numero;
+		numero - = 1 ;
+	}
+	printf ( " Total % d  \ n " , soma);
+
+	return  0 ;
+}
